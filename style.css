@@ -1,0 +1,15 @@
+.offer-btn {
+  display:inline-block;
+  margin-top:14px;
+  padding:10px 14px;
+  background:#0ea5a4;
+  color:#fff;
+  border-radius:10px;
+  font-weight:600;
+  font-size:0.9rem;
+  transition:0.25s;
+}
+
+.offer-btn:hover {
+  background:#0c8e8d;
+}
