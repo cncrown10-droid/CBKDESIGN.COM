@@ -13,3 +13,11 @@
 .offer-btn:hover {
   background:#092f74;
 }
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background: #222;
+    color: white;
+}
