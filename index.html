@@ -47,6 +47,20 @@
     .card p{margin:0;color:#475569;font-size:0.95rem}
     .card .badge{display:inline-block;padding:6px 8px;border-radius:999px;font-size:0.82rem;background:#eef2ff;color:#4c1d95;margin-bottom:8px}
 
+    /* Bouton Voir l’offre / Commander */
+    .offer-btn, .order-btn {
+      display:inline-block;
+      margin-top:12px;
+      padding:10px 16px;
+      border-radius:8px;
+      background:#0b3d91;
+      color:#fff;
+      font-weight:600;
+      text-align:center;
+      transition:0.3s;
+    }
+    .offer-btn:hover, .order-btn:hover { background:#092f74; }
+
     /* Responsive */
     @media (max-width:900px){
       .hero-grid{grid-template-columns:1fr;}
@@ -90,7 +104,7 @@
         <ul id="navList">
           <li><a href="#home">Home</a></li>
           <li><a href="#services">Services</a></li>
-          <li><a href="offres/index.html">Offres</a></li>
+          <li><a href="#offres/index.html">Offres</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
